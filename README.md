@@ -4,8 +4,10 @@ Python script to control gobée bluetooth strips
 Tested with model 8081
 
 ## Install
+```
 pip3 install flask  
 pip3 install -U git+https://github.com/Freemanium/govee_btled
+```
 
 ## Config
 
@@ -15,6 +17,7 @@ Put your mac addresses in the led array line 19
 
 With the homebridge http lightbulb plugin
 
+```
 {
     "accessory": "HTTP-LIGHTBULB",
     "name": "Light",
@@ -34,5 +37,6 @@ With the homebridge http lightbulb plugin
         "statusUrl": "http://localhost:5000/getSaturation/0"
     }
 }
+```
 
 where /0 is the light index in the led array
