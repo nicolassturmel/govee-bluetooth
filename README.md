@@ -1,5 +1,5 @@
 # govee-bluetooth
-Python script to control gobée bluetooth strips
+Python script to control govee bluetooth strips
 
 Tested with model 8081
 
